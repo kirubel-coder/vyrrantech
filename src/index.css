@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Dark futuristic theme - default is dark mode */
+    --background: 220 13% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 13% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 13% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Neon cyan primary */
+    --primary: 184 100% 50%;
+    --primary-foreground: 220 13% 6%;
+
+    /* Secondary dark tones */
+    --secondary: 215 20% 15%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 25% 12%;
+    --muted-foreground: 215 20% 65%;
+
+    /* Neon green accent */
+    --accent: 142 76% 50%;
+    --accent-foreground: 220 13% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 25% 20%;
+    --input: 215 25% 15%;
+    --ring: 184 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Neon glow effects */
+    --neon-cyan: 184 100% 50%;
+    --neon-green: 142 76% 50%;
+    --neon-purple: 271 81% 56%;
+    --neon-pink: 322 84% 55%;
+    
+    /* Tech gradients */
+    --gradient-cyber: linear-gradient(135deg, hsl(184 100% 50% / 0.1), hsl(271 81% 56% / 0.1));
+    --gradient-neon: linear-gradient(135deg, hsl(184 100% 50%), hsl(142 76% 50%));
+    --gradient-dark: linear-gradient(135deg, hsl(220 13% 6%), hsl(215 25% 12%));
+    
+    /* Shadows with glow */
+    --shadow-glow: 0 0 20px hsl(var(--neon-cyan) / 0.3);
+    --shadow-glow-intense: 0 0 40px hsl(var(--neon-cyan) / 0.5);
+    --shadow-card: 0 8px 32px hsl(220 13% 6% / 0.8);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-glow: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
