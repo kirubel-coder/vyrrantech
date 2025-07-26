@@ -52,7 +52,7 @@ const Home = () => {
   const testimonials = [
     {
       name: "Sara Abera",
-      company: "TechFlow Solutions",
+      company: "International Hotel",
       quote: "Vyrran Tech transformed our digital presence completely. Their innovative approach and attention to detail exceeded all expectations.",
       rating: 5
     },
@@ -64,8 +64,8 @@ const Home = () => {
     },
     {
       name: "Ermias Waqjira",
-      company: "Digital Dynamics",
-      quote: "The team's expertise in modern web technologies is unmatched. They created exactly what we neand more.",
+      company: "Educational Consultancy",
+      quote: "The team's expertise in modern web technologies is unmatched. They created exactly what we needed and more.",
       rating: 5
     }
   ];
@@ -93,8 +93,8 @@ const Home = () => {
     <>
       <Helmet>
         <title>Vyrran Technologies - Futuristic Web Development Solutions</title>
-        <meta name="description" content="Cutting-edge web development, mobile apps, and digital solutions. Transform your business with our innovative technology solutions." />
-        <meta name="keywords" content="web development, mobile apps, UI/UX design, technology solutions, software development" />
+        <meta name="description" content="Cutting-edge web development, web design, and digital solutions. Transform your business with our innovative technology solutions." />
+        <meta name="keywords" content="web development, web design, UI/UX design, technology solutions, software development" />
         <meta property="og:title" content="Vyrran Technologies - Futuristic Web Development Solutions" />
         <meta property="og:description" content="Cutting-edge web development and digital solutions for the future" />
       </Helmet>
@@ -121,8 +121,8 @@ const Home = () => {
             className="text-5xl md:text-7xl font-cyber font-bold mb-6 text-foreground"
             variants={itemVariants}
           >
-            <span className="text-primary">WELCOME</span> TO{' '}
-            <span className="bg-gradient-neon bg-clip-text text-transparent">VYRRAN</span>
+            <span className="text-primary">Ideas Spark</span>, We{' '}
+            <span className="bg-gradient-neon bg-clip-text text-transparent">Make them real</span>
           </motion.h1>
           
           <motion.p 

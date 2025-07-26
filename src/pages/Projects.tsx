@@ -34,6 +34,31 @@ const Projects = () => {
       category: "Frontend Development",
       year: "2023"
     }
+    ,
+        {
+          title: 'Healthcare Website Design',
+          description: 'Complete UX/UI design for a healthcare application focusing on patient management and telemedicine capabilities.',
+          category: 'UI/UX Design',
+          tech: ['Figma', 'Codepen', 'Canva', ],
+          image: "https://cdn.dribbble.com/userupload/21467436/file/original-e070670b034bb599eeb8fc98085e2b65.jpg?resize=1024x768&vertical=center",
+          year: "2023"
+        },
+        {
+          title: 'Real Estate Platform Website Design',
+          description: 'Full-featured real estate platform with property listings, virtual tours, mortgage calculator, and agent management system.',
+          category: 'Web Design',
+          tech: ['Figma', 'Canva', 'Uivers',  'Codepen'],
+          image: "https://cdn.dribbble.com/userupload/16607783/file/original-84341079177105105983fb8b0b3db7e9.png?resize=1024x768&vertical=center",
+          year: "2024"
+        },
+        {
+          title: 'Fitness Tracking Website Design',
+          description: 'fitness website with workout tracking, nutrition planning, and social features for fitness enthusiasts.',
+          category: 'Website Design',
+          tech: ['Figma', 'Canva'],
+          image: "https://cdn.dribbble.com/userupload/18181117/file/original-6e7cb3ce00e491f05cf8ce3f64d2111d.png?resize=1024x666&vertical=center",
+          year: "2025" 
+        }
   ];
 
   return (

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import vyrranLogo from '@/assets/vyrran-logo.png';
+import vyrranLogo from '@/assets/NewLogoWithoutText.jpg';
 
 interface LoadingScreenProps {
   onLoadComplete: () => void;

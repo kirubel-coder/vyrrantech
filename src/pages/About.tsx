@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Target, Eye, Zap, Users, Award, Globe } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { Helmet } from 'react-helmet-async';
-import ceoImage from '@/assets/upworkPfpCropped2.jpg';
+import ceoImage from '@/assets/NewLogoWithText.jpg';
 
 const About = () => {
   const values = [
