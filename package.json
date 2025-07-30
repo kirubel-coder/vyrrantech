@@ -3,19 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "postbuild": "cp public/_redirects dist/ || true",
-  "build:dev": "vite build --mode development",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "start": "node server.js"
-}
-
-
-,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "postbuild": "cp public/_redirects dist/ || true",
+    "build:dev": "vite build --mode development",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",
@@ -51,6 +47,7 @@
     "cmdk": "^1.0.0",
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.3.0",
+    "express": "^5.1.0",
     "framer-motion": "^12.23.6",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.462.0",
